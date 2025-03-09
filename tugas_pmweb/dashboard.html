@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header dengan Menu dan Tombol Menu -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="dashboard.html">Beranda</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="index.html">Keluar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="container">
+        <h2>Dashboard</h2>
+        <p>Selamat Datang di Halaman MyKnowledge!</p>
+
+        <div class="content-box">
+            <h3>Pilih Konten</h3>
+            <button><a href="IkanArwana.html">Hewan</button>
+            <button><a href="Tabel.html"></a>Tabel</button>
+            <button><a href="Tugas_PMweb_MDaffaYasserA_2310612.html"></a>Makanan</button>
+        </div>
+
+        <div class="content-box">
+            <h3>Upload Konten dan Gambar</h3>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label for="judul">Judul:</label>
+                <input type="text" id="judul" name="judul" required>
+                
+                <label for="file">Upload Gambar:</label>
+                <input type="file" id="file" name="file" accept="image/*" required>
+                
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+
+        <div class="content-box">
+            <h3>Konten yang Telah Dibuat</h3>
+            <ul>
+                <li>Ikan Arwana</li>
+                <li>table</li>
+                <li>Tahu Rendang</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
